@@ -1,0 +1,9 @@
+- name: Download artifact
+  uses: actions/download-artifact@v1.0.0
+  with:
+    # Artifact name
+    name: # optional
+    # Destination path
+    path: # optional
+    # artifact source
+    source: # optional, default is current
