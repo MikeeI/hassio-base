@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build the Docker image
-      run: ls
+      run: cd raspbian && build . --file Dockerfile --tag my-image-name:$(date +%s)
